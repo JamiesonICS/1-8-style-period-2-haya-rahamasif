@@ -34,7 +34,7 @@ p, li {
   color: darkblue;
 }
 
-ol {
+ol, #hide-awards {
   display: none;
 }
 
@@ -71,4 +71,13 @@ td {
 #ttc {
   height: 300px;
   width: 300px
+}
+
+button {
+  background-color: darkblue;
+  border: none;
+  border-radius: 7px;
+  color: #ADD8E6;
+  font-family: "Afacad Flux";
+  font-size: 20px;
 }
