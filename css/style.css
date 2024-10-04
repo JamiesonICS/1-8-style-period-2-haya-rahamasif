@@ -15,9 +15,12 @@ h1, h2, h3, p, ul {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
+h1, h2 {
+  text-align: center;
+}
 
 h3 {
   font-size: 30px;
@@ -42,6 +45,7 @@ ol, #hide-awards {
   display: flex; 
   padding-bottom: 15px;
 }
+
 
 a {
   color: rgb(197, 28, 28);
@@ -80,4 +84,9 @@ button {
   color: #ADD8E6;
   font-family: "Afacad Flux";
   font-size: 20px;
+}
+
+#scroll {
+  display: none;
+  padding-left: 20px;
 }
